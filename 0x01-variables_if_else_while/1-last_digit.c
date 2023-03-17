@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Prints the last digit of a randomly generated number
+ * main - main function
  *
  * return: always 0
  */
