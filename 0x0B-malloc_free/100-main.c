@@ -4,8 +4,8 @@
 
 /**
 * main - check the code for ALX School students.
-* @ac: intger to print
-* @av: char to print
+* @ac: int input
+* @av: double pointer array
 *
 * Return: Always 0.
 */
