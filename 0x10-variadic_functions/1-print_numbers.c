@@ -1,10 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-/**
- * File: 1-print_numbers.c
- * Auth: Taoufik El Mahdaoui
- */
 
 /**
  * print_numbers - function Prints numbers.
