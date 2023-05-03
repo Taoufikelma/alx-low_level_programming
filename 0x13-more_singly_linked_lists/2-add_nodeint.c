@@ -7,7 +7,7 @@
  * @n: element
  *
  * Return: the address of the new element
- * 	NULL if it failed
+ *	NULL if it failed
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)

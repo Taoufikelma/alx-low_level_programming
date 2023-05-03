@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * add_nodeint - function that can add
+ * add_nodeint_end - function that can add
  * a new node att the end of a linked list
  * @head: the head of the list
  * @n: element
  *
  * Return: the address of the new element
- * 	NULL if it failed
+ *	NULL if it failed
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -38,6 +38,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		}
 		tmp->next = nw;
 	}
-	
+
 	return (*head);
 }
