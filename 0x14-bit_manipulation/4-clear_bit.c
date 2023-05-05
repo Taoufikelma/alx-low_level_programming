@@ -23,8 +23,8 @@ int clear_bit(unsigned long int *n, unsigned int index)
 
 	if (*n & x)
 	{
-		*n ^= n;
+		*n ^= x;
 	}
 
-	return (a);
+	return (1);
 }
